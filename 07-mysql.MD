@@ -23,7 +23,7 @@ Next, We need to change the default root password in order to start using the da
 mysql_secure_installation --set-root-pass RoboShop@1
 ```
 
-You can check the new password working or not using the following command in MySQL(Login into the mysql server).
+You can check the new password working or not using the following command in MySQL(We will Login into the mysql server).
 
 ```
 mysql -h mysql.lingaiah.online -uroot -pRoboShop@1
