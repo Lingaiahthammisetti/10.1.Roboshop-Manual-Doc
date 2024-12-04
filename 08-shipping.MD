@@ -101,7 +101,8 @@ dnf install mysql -y
 Load Schema
 
 ```
-mysql -h mysql.lingaiah.online -uroot -pRoboShop@1 < /app/schema/shipping.sql 
+mysql -h mysql.lingaiah.online -uroot -pRoboShop@1 < /app/db/schema.sql
+
 ```
 
 This service needs a restart because it is dependent on schema, After loading schema only it will work as expected, Hence we are restarting this service. This
