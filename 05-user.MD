@@ -119,7 +119,7 @@ dnf install mongodb-mongosh -y
 Load Schema
 
 ```
-mongosh --host MONGODB-SERVER-IPADDRESS </app/schema/user.js
+mongosh --host mongodb.lingaiah.online </app/schema/user.js
 ```
 
 
