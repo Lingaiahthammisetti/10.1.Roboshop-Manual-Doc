@@ -19,7 +19,7 @@ systemctl start nginx
 
 Try to access the service once over the browser and ensure you get some default content.
 ```
-http://<public-IP>:80
+http://frontend.lingaiah.online:80
 ```
 
 Remove the default content that web server is serving. 
