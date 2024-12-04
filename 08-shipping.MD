@@ -104,7 +104,14 @@ Load Schema
 mysql -h mysql.lingaiah.online -uroot -pRoboShop@1 < /app/db/schema.sql
 
 ```
+```
+mysql -h mysql.lingaiah.online -uroot -pRoboShop@1 < /app/db/app-user.sql
 
+```
+```
+mysql -h mysql.lingaiah.online -uroot -pRoboShop@1 < /app/db/master-data.sql
+
+```
 This service needs a restart because it is dependent on schema, After loading schema only it will work as expected, Hence we are restarting this service. This
 
 ```
