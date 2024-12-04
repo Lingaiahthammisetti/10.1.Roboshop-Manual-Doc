@@ -70,7 +70,7 @@ Description = User Service
 [Service]
 User=roboshop
 Environment=MONGO=true
-Environment=REDIS_HOST=<REDIS-SERVER-IP>
+Environment=REDIS_HOST=redis.lingaiah.online
 Environment=MONGO_URL="mongodb://mongodb.lingaiah.online:27017/users"
 ExecStart=/bin/node /app/server.js
 SyslogIdentifier=user
