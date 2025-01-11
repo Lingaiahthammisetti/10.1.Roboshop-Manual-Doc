@@ -5,7 +5,12 @@ Developer has chosen NodeJs, Check with developer which version of NodeJS is nee
 
 Install NodeJS, By default NodeJS 10 is available, We would like to enable 18 version and install list.
 
-*you can list modules by using dnf module list*
+
+**You can list modules by using "dnf module list"**
+```
+dnf module list
+```
+
 
 ```
 dnf module disable nodejs -y

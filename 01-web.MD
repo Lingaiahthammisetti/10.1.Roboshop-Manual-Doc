@@ -4,6 +4,11 @@
 * This will have the web page for the web application.
 * Developer has chosen Nginx as a web server and thus we will install Nginx Web Server. 
 
+**You can list modules by using "dnf module list"**
+```
+dnf module list
+```
+
 Install Nginx 
 ```
 dnf install nginx -y
